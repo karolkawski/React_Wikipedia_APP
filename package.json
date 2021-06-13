@@ -1,0 +1,41 @@
+{
+  "name": "React_Wikipedia_APP",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "cra-template": "1.1.2",
+    "jquery": "^3.6.0",
+    "lodash.debounce": "^4.0.8",
+    "node-sass": "^6.0.0",
+    "random-image-creator": "^2.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-html-parser": "^2.0.2",
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+.wikipedia-viewer {
+    width: 50%;
+}
+
+.wikipedia-viewer__search {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.wikipedia-viewer__input {
+    height: 17px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.wikipedia-viewer__actions {
+    margin-top: 5px;
+    display: flex;
+}
+.wikipedia-viewer__alert {
+    position: fixed;
+    top: 30px;
+    left: 0;
+    margin: auto;
+    width: 100%;
+}
+
+.wikipedia-viewer__counter {
+    color: #fff;
+    margin-top: 10px;
+    user-select: none;
+}
+.wikipedia-viewer__input.wikipedia-viewer__input--search {
+    flex: 6;
+}
+
+.wikipedia-viewer__input.wikipedia-viewer__input--replace {
+    flex: 3;
+}
+
