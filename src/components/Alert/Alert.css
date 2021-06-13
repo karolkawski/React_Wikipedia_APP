@@ -1,6 +1,7 @@
 .alert {
     height: 30px;
-    background: rgba(255,255,255,0.8);
+    background: #fff;
+    border: 1px solid #ccc;
     width: 300px;
     margin: auto;
     display: none;
